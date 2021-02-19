@@ -53,7 +53,7 @@ if($_POST) {
                 $mail->FromName = $name;  
                 $mail->AddAddress($address, "Eony"); 
                 $mail->Subject    = $subject;
-                $mail->AltBody    = "Sent from Geass!";
+                $mail->AltBody    = "Sent from DashNCode!";
                 $mail->MsgHTML($body);
         
                 if($mail->Send()):

@@ -1854,8 +1854,8 @@ fieldset[disabled] .btn-red.active {
 
 .btn-yellow {
   color: #ffffff;
-  background-color: #f8d61b;
-  border-color: #f0cf18;
+  background-color: #1982d8;
+  border-color: #1982d8;
 }
 
 .btn-yellow:hover,
@@ -1864,8 +1864,8 @@ fieldset[disabled] .btn-red.active {
 .btn-yellow.active,
 .open .dropdown-toggle.btn-yellow {
   color: #ffffff;
-  background-color: #f0cf18;
-  border-color: #ddbc05;
+  background-color: #3ca0f1;
+  border-color: #3ca0f1;
 }
 
 .btn-yellow:active,
@@ -2718,14 +2718,14 @@ a.list-group-item-purple.active:focus {
 
 .red .accordion-panel-title,
 .accordion-panel-title.red {
-  background:#c90e31;
+  background:#a50a23;
   border-color:#a30b28;
   color:#fff;
 }
 
 .red .accordion-panel-title:hover,
 .accordion-panel-title.red:hover {
-  background:#a30b28;
+  background:#ee0a34;
   border-color:#78081d;
 }
 
@@ -2744,20 +2744,20 @@ a.list-group-item-purple.active:focus {
 
 .yellow .accordion-panel-title,
 .accordion-panel-title.yellow {
-  background:#f8d61b;
+  background:#9c5d09;
   color:#fff;
-  border-color:#f0cf18;
+  border-color:#e98503;
 }
 
 .yellow .accordion-panel-title:hover,
 .accordion-panel-title.yellow:hover {
-  background:#f0cf18;
-  border-color:#ddbc05;
+  background:#cc7a0e;
+  border-color:#e98503;
 }
 
 .lightblue .accordion-panel-title,
 .accordion-panel-title.lightblue {
-  background:#1bc4f5;
+  background:#087b9b;
   color:#fff;
   border-color:#0aaedd;
 }
@@ -5748,8 +5748,8 @@ span.tab-icon {
 #portfolio-filter li a:focus,
 #portfolio-filter li a.active {
   color:#fff;
-  background: #f8d61b;
-  border-color:#f8d61b;
+  background: #1982d8;
+  border-color:#1982d8;
 }
 
 #portfolio-wrapper {
@@ -7619,7 +7619,7 @@ change background image with one of yours.
 }
 
 .resume-background {
-  border: 3px solid cyan;
+  border: 3px solid rgb(21, 190, 190);
   padding: 20px;  
 }
 
@@ -7644,7 +7644,7 @@ change background image with one of yours.
 #resume-link {
   border: 1px solid white;
   padding: 7px;
-  background-color: cyan;
+  background-color: rgb(10, 213, 228);
   color: black;
   font-size: 2rem;
   text-align: center;
@@ -7674,4 +7674,42 @@ change background image with one of yours.
 .portfolio-img img{
   width: 100%;
   height: 365px;
+}
+
+.no-list li{
+  list-style-type: none;
+}
+
+.no-list i {
+  margin-right: 10px;
+  font-size: 20px;;
+}
+
+.fa-html5 {
+  color:orange;
+}
+
+.fa-css3-alt {
+  color:rgb(94, 94, 221);
+}
+
+.fa-js-square {
+  color:yellow;
+}
+
+.fa-node-js {
+  color:lime;
+}
+
+.fa-react {
+  color:rgb(68, 185, 224);
+}
+
+.fa-wordpress-simple {
+  color:lightblue;
+}
+
+.no-list img {
+  width: 18px;
+  margin-right:5px;
 }

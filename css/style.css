@@ -7032,7 +7032,7 @@ span.tab-icon {
 /* contact form */
 /* Added transparent background and z-index value to fix animated label's positioning */
 /* Now it is clickable overthe labels*/
-#contact-form .form-control {
+.contact-form .form-control {
   background-color: transparent;
   z-index:1;
   position: relative;

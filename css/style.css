@@ -731,7 +731,7 @@ blockquote.pull-right.green {
 
 .yellowbg,
 .highlight.yellow {
-  background:#f8d61b;
+  background:#1e53d8;
 }
 
 .lightbluebg,
@@ -1056,7 +1056,7 @@ blockquote.pull-right.green {
 }
 
 .section-overlay.yellowbg {
-  background: #15045265;
+  background: #2e078a77;
 }
 
 .section-overlay.orangebg {
@@ -1072,7 +1072,7 @@ blockquote.pull-right.green {
 }
 
 .section-overlay.bluebg {
-  background: rgba(11, 58, 177, 0.4);
+  background: #2e078a77;
 }
 
 .section-overlay.lightgreenbg {
@@ -1084,11 +1084,11 @@ blockquote.pull-right.green {
 }
 
 .section-overlay.purplebg {
-  background: rgba(92, 19, 145, 0.529);
+  background: #2e078a77;
 }
 
 .section-overlay.darkbg {
-  background: rgba(0, 0, 0, 0.761);
+  background: #2e078a77;
 }
 
 .section-content {
@@ -1141,7 +1141,7 @@ blockquote.pull-right.green {
 
 .section-desc,
 .parallax-desc {
-  font-size:15px;
+  font-size:19px;
   width:70%;
   margin:0 auto;
   color:#6a6a6a;
@@ -2482,6 +2482,7 @@ a.list-group-item-purple.active:focus {
   -moz-transition:all 0.35s;
   -ms-transition:all 0.35s;
   -o-transition:all 0.35s;
+  
 }
 
 .accordion-btn:hover,
@@ -2672,6 +2673,7 @@ a.list-group-item-purple.active:focus {
 
 .accordion-body p {
   text-indent: 20px;
+  
 }
 
 .accordion-body ul {
@@ -2718,15 +2720,15 @@ a.list-group-item-purple.active:focus {
 
 .red .accordion-panel-title,
 .accordion-panel-title.red {
-  background:#a50a23;
-  border-color:#a30b28;
+  background:transparent;
+  border-color:#0aaedd;
   color:#fff;
 }
 
 .red .accordion-panel-title:hover,
 .accordion-panel-title.red:hover {
-  background:#ee0a34;
-  border-color:#78081d;
+  background:#0aaedd;
+  border-color:#0aaedd;
 }
 
 .orange .accordion-panel-title,
@@ -2744,20 +2746,20 @@ a.list-group-item-purple.active:focus {
 
 .yellow .accordion-panel-title,
 .accordion-panel-title.yellow {
-  background:#9c5d09;
+  background:transparent;
   color:#fff;
-  border-color:#e98503;
+  border-color:#0aaedd;
 }
 
 .yellow .accordion-panel-title:hover,
 .accordion-panel-title.yellow:hover {
-  background:#cc7a0e;
-  border-color:#e98503;
+  background:#0aaedd;
+  border-color:#0aaedd;
 }
 
 .lightblue .accordion-panel-title,
 .accordion-panel-title.lightblue {
-  background:#087b9b;
+  background:transparent;
   color:#fff;
   border-color:#0aaedd;
 }
@@ -2855,6 +2857,7 @@ a.list-group-item-purple.active:focus {
 .accordion-panel .accordion-body-wrapper:before {
   display:none;
 }
+
 
 /* End collapse */
 
@@ -4390,6 +4393,7 @@ span.tab-icon {
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 20px;
+  font-size: 20px;
 }
 
 .navbar-nav .dropdown-menu {
@@ -5216,7 +5220,7 @@ span.tab-icon {
 ===================== 8. #AboutUs Section  */
 
 #aboutus.section-bg {
-  background-image: url('../images/backgrounds/backgroundswirl.jpg');
+  background-image: url('../images/backgrounds/universe.jpg');
 }
 
 .member {
@@ -5449,7 +5453,7 @@ span.tab-icon {
 */
 .img-container {
   overflow: hidden;
-  padding-top:50px;
+  /* padding-top:50px; */
 }
 
 .img-container.small {
@@ -5486,7 +5490,7 @@ span.tab-icon {
 ================== 10. #Services Section  */
 
 #services.section-bg {
-  background-image: url('../images/backgrounds/backgroundsand.jpg');
+  background-image: url('../images/backgrounds/universe.jpg');
 }
 
 #services.section {
@@ -6959,7 +6963,7 @@ span.tab-icon {
 =================== 16. #Contact Section  */
 
 #contactus.section-bg {
-  background-image: url('../images/backgrounds/calmnight.jpg');
+  background-image: url(../images/backgrounds/universe.jpg);
 }
 
 #contactus.section {
@@ -7051,7 +7055,7 @@ span.tab-icon {
   font-size:16px;
   line-height:1;
   margin-top:-8px;
-  color:#aeaeae;
+  color:white;
   transition: all 0.3s;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -7065,16 +7069,19 @@ span.tab-icon {
 .form-group textarea:focus + label + .animated-label.textarea-label {
   left:0;
   color:#5a5a5a;
+  color:transparent;
 }
 
 .form-group input:focus + .animated-label,
 .form-group input:focus + label + .animated-label {
    top:-18px;
+   color:transparent;
 }
 
 .form-group textarea:focus + .animated-label.textarea-label,
 .form-group textarea:focus + label + .animated-label.textarea-label {
   top:-26px;
+  color:transparent;
 }
 
 .section-bg .animated-label,
@@ -7082,7 +7089,8 @@ span.tab-icon {
 .section-bg .form-group input:focus + label + .animated-label,
 .section-bg .form-group textarea:focus + .animated-label.textarea-label,
 .section-bg .form-group textarea:focus + label + .animated-label.textarea-label {
-  color:#fff;
+  color:whitesmoke;
+  font-size: 20px;
 }
 
 /* these not-empty class added via js to check empty or not 
@@ -7095,11 +7103,13 @@ if it is empty do not move back label*/
 .animated-label.textarea-label.not-empty{
   top:-26px !important;
   left:0 !important;
+  
 }
 
 .animated-label.textarea-label {
   top:20px;
-  margin-top:0;
+  margin-top:-5px;
+  color:transparent;
 }
 
 label.error {
@@ -7294,7 +7304,7 @@ textarea.fix-height {
 }
 
 #footer.section-bg {
-  background-image: url('../images/backgrounds/background6.jpg');
+  background-image: url('../images/backgrounds/universe.jpg');
 }
 
 #footer .section-content {
@@ -7614,7 +7624,7 @@ change background image with one of yours.
 }
 
 .padding-to-row {
-  height: 550px;
+  height: 480px;
   margin-bottom: 50px;
 }
 
@@ -7678,6 +7688,8 @@ change background image with one of yours.
 
 .no-list li{
   list-style-type: none;
+  margin-bottom: 11px;
+  font-size: 2rem;
 }
 
 .no-list i {
@@ -7712,4 +7724,8 @@ change background image with one of yours.
 .no-list img {
   width: 18px;
   margin-right:5px;
+}
+
+.row p {
+  font-size: 18px;
 }
